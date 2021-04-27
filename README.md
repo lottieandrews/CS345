@@ -5,10 +5,10 @@
 
 This repository contains a set of Jupyter notebooks for Colorado State University's introductory machine learning course [CS345: Machine Learning Foundations and Practice](https://www.cs.colostate.edu/~cs345/).
 
-<img style="padding: 10px; float:right;" alt="CSU" src="https://static.colostate.edu/logo/reslogo-v2/assets/img/csu-responsive-symbol.min.svg" width="2000">
+<img style="padding: 10px; float:right;" alt="CSU" src="https://static.colostate.edu/logo/reslogo-v2/assets/img/csu-responsive-symbol.min.svg" width="1500">
 
 
-For most algorithms we present implementations and also practice using them with [scikit-learn](https://scikit-learn.org/).
+For most algorithms we present implementations from scratch and practice using  [scikit-learn](https://scikit-learn.org/).
 Algorithms are presented using a matrix/vector abstraction that translates to efficient Numpy code.
 Neural networks are introduced using [keras](https://keras.io/).
 
@@ -21,7 +21,7 @@ The notebooks for this course are divided into the following modules:
   * [Introduction to machine learning and the Jupyter notebook](notebooks/module01_01_intro.ipynb)
   * [Labeled data and supervised learning](notebooks/module01_02_labeled_data.ipynb)
   * [Numpy](notebooks/module01_03_numpy.ipynb)
-  * [Vectors and doct products](notebooks/module01_04_vectors_dot_products.ipynb)
+  * [Vectors and dot products](notebooks/module01_04_vectors_dot_products.ipynb)
   * [Visualizing data with Matplotlib](notebooks/module01_05_matplotlib.ipynb)
 * Our first classifiers:  the perceptron and nearest neighbors
   * [Hyperplanes](notebooks/module02_01_hyperplanes.ipynb)
@@ -46,11 +46,16 @@ The notebooks for this course are divided into the following modules:
   * [Ensemble methods and random forests](module06_02_ensemble_methods.ipynb)
 * Towards neural networks:  Logistic regression
   * [A primer in probability](notebooks/module07_01_probability.ipynb)
-  * [Logistic regression](notebooks/module07_01_logistic_regression.ipynb)
+  * [Logistic regression](notebooks/module07_02_logistic_regression.ipynb)
+  * [Regularization revisited](notebooks/module07_03_regularization_revisited.ipynb)
 * Neural networks
   * [An introduction to feed forward networks](notebooks/module08_01_neural_networks_mlp.ipynb)
+  * [Feed forward networks using keras](notebooks/module08_02_neural_networks_keras.ipynb)
+  * [Image classification using feed forward neural networks](notebooks/module08_03_neural_networks_mnist.ipynb)
 * Naive Bayes
   * [Text classification with Naive Bayes](notebooks/module09_01_naive_bayes.ipynb)
+* Conclusions
+    * [A summary of supervised learning](notebooks/module10_01_conclusions.ipynb)
 
 * Appendix:  a brief introduction to Python [ [notebook](notebooks/module0_01_python_intro.ipynb) ]
 
